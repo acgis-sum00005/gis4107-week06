@@ -7,4 +7,4 @@ def get_db_link(building_code):
     if building_code [2] != ['-'] and building_code [6] != ['-'] and building_code [13] != ['-']:
         return False 
     else:
-        return building_code[4] + building_code[5] + building_code[10] + building_code[12]
+        return ({f'building_code[4] + building_code[5] + ['-'] + building_code[10] + building_code [11] + building_code[12]'})
