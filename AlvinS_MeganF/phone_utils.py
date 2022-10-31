@@ -7,8 +7,8 @@ def is_valid_phone_number(phone_number):
             # use .replace and assess .isdigit
    if len(phone_number) == 12:
         return True
-   elif phone_number.index('_') == 3 and 7: 
-        return True
+   elif phone_number.index('_') == 3 and 7:
+       return True
 #trying to add another condition but I keep getting a syntax error?
     elif phone_number.isalpha():
         return True 
